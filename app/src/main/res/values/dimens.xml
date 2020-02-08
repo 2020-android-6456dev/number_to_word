@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_et_top">50dp</dimen>
+    <dimen name="margin_tv_top">200dp</dimen>
+
+
+    <dimen name="padding_default">20dp</dimen>
+    <dimen name="padding_et">10dp</dimen>
+
+    <dimen name="height_tv">40dp</dimen>
+
+</resources>

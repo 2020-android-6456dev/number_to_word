@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NumberToWord</string>
+    <string name="txt_label_number_in_words">Please add number in text box to get it converted in words.</string>
+</resources>

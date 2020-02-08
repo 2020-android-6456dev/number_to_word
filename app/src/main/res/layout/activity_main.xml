@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_default"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/colorText"
+        android:id="@+id/tv_number_in_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_tv_top"
+        android:text="@string/txt_label_number_in_words"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:padding="@dimen/padding_et"
+        android:layout_marginTop="@dimen/margin_et_top"
+        app:layout_constraintTop_toBottomOf="@id/tv_number_in_words"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/et_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_tv"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
