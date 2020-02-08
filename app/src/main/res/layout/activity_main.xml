@@ -20,6 +20,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:background="@drawable/drawable_border"
+        android:digits="1234567890"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:inputType="number"
+        android:imeOptions="actionDone"
         android:padding="@dimen/padding_et"
         android:layout_marginTop="@dimen/margin_et_top"
         app:layout_constraintTop_toBottomOf="@id/tv_number_in_words"
